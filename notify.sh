@@ -24,7 +24,7 @@ EOT
 			-title "$PROCESS [$ACCOUNT]" \
 			-subtitle "$1" \
 			-message "$2" \
-			-sender Finder \
+			-sender SystemEvents \
 			-appIcon "$ICON_LOC" \
 			>/dev/null
 	fi
